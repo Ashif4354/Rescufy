@@ -22,7 +22,9 @@ const Home4Select = () => {
                 // },
                 body: formData,
             }).then((response) => response.json())
-            .then(response => alert(`Name: ${response.name}, Address: ${response.address}, Phone Number 1: ${response.ph1}, Phone Number 2: ${response.ph2}`))
+            .then((data) => setDataRecieved(data))
+            .then(console.log(dataReceived))
+            // .then(response => alert(`Name: ${response.name}, Address: ${response.address}, Phone Number 1: ${response.ph1}, Phone Number 2: ${response.ph2}`))
     }
 
     const handleTakePic = () => {
