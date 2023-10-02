@@ -1,0 +1,24 @@
+.HomeTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: rgb(246, 246, 246);
+}
+
+.HomeTextContainerHeader{
+    font-size: x-large;
+    color: red;
+    font-weight: 400;
+}
+
+.HomeTextContainerInp{
+    width: 350px;
+    padding: 25px;
+    border-radius: 4px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    border: 1px solid black;
+}

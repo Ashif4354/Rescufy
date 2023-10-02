@@ -1,0 +1,6 @@
+.LoginContainer{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 15px gainsboro;
+    /* height: 20px; */
+    padding: 45px 200px 65px;
+}

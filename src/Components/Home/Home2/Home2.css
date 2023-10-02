@@ -1,0 +1,18 @@
+.inputFile{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submitBtn{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 55px;
+    font-family: 'Cinzel', serif;
+    width: max-content;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgb(166, 0, 255);
+}

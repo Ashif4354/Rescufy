@@ -1,0 +1,7 @@
+.btnCapture{
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    background: yellow;
+}

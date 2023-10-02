@@ -1,0 +1,97 @@
+.Home3Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 39px 20px;
+    align-items: center;
+}
+.DialogHeader{
+    text-align: center;
+}
+.Home3ContainerImg{
+    width: 150px;
+    height: 150px;
+}
+.physicalDescription{
+    width: 350px;
+}
+.DialogContainerDetailds{
+    padding: 0px 40px;
+}
+
+.dialogPara{
+    font-size: large;
+    font-family: 'Cinzel', serif;
+    width: max-content;
+}
+
+.DialogContainer{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    padding: 20px 50px;
+    overflow: hidden;
+}
+
+.DialogContainerImg{
+    width: 300px;
+    height:70vh;
+}
+
+.DialogContainerImgImg{
+    height: 70vh;
+    width: 300px;
+    object-fit: contain;
+}
+
+
+.Home3ContainerImgImg{
+    width: 150px;
+    height: 150px;
+}
+
+.StatusBar{
+    padding: 5px 25px;
+    border-radius: 5px;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: larger;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.139);
+}
+
+.viewmoreLink{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    width: max-content;
+}
+
+.StatusBar{
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+    font-size: large;
+}
+
+.Home3ContainerStatus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Home3ContainerFonts{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.BoldIT{
+    font-weight: 700;
+}
+
+.BoldITStatus{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,14 @@
+.LoginBtn{
+}
+
+.LoginBtn .btn{
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(136, 0, 255);
+    color: white;
+    font-size: large;
+    width: 300px;
+    cursor: pointer;
+}

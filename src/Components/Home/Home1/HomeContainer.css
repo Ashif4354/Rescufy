@@ -1,0 +1,23 @@
+.HomeContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 40px;
+}
+
+.HomeContainerImg{
+    width: 350px;
+    height: 400px;
+}
+.HomeContainerImgImg{
+    width: 350px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.HomeContainerDetails{
+    height: 400px;
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

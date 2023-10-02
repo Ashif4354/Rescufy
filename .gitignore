@@ -6,6 +6,9 @@
 /server/venv
 .pnp.js
 
+# pycache
+*.pyc
+
 # testing
 /coverage
 

@@ -1,0 +1,28 @@
+.LoginPaper2Header{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.BackBtn{
+    padding: 9px 9px;
+    font-size: small;
+    border-radius: 6px;
+    background: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.BackBtn:hover{
+    background: white;
+    color: black;
+}
+
+.formSubmit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
