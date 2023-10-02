@@ -41,7 +41,7 @@ const Home3Container = ({ name, age, gender, image, physicalDescription, DOB, pl
             </div>
         </Dialog>
         <div className="Home3Container">
-            <div className="Home3ContainerImg"><img className="Home3ContainerImgImg" src={image}/></div>
+            <div className="Home3ContainerImg"><img alt="child" className="Home3ContainerImgImg" src={image}/></div>
             <div className="Home3ContainerFonts">
                 <p><span className="BoldIT">Name: </span>{name}</p>
                 <p><span className="BoldIT">Age: </span>{age}</p>

@@ -1,12 +1,12 @@
 import React, { Fragment, useRef, useState } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import { Camera } from 'react-cam';
 import "./Home4TakePic.css";
 
 const Home4TakePic = () => {
   const cam = useRef(null);
 
-  const [dataReceived, setDataRecieved] = useState(null);
+  const [dataReceived, setDataRecieved] = useState({});
 
   function capture(imgSrc) {
 
@@ -35,12 +35,15 @@ const Home4TakePic = () => {
 
   const handleClick = (img) => {
     cam.current.capture(img);
+    if(dataReceived === ''){
+      // do nothing
+    }
   }
 
   return (
     <Fragment>
       <Camera
-        showFocus={true}
+        showFocus={false}
         front={false}
         capture={capture}
         ref={cam}
@@ -48,7 +51,7 @@ const Home4TakePic = () => {
         height="500vh"
         focusWidth="70%"
         focusHeight="70%"
-        btnColor="white"
+        btnColor="blue"
       />
       <br />
       <div style={{width: '100%', textAlign: 'center'}}> 

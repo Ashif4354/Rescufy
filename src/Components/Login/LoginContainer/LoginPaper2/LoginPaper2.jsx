@@ -15,12 +15,12 @@ const LoginPaper2 = ({ handlePreviousPaper }) => {
 
     const handleEmail = (text) => {
         setEmailID(text.target.value);
-        console.log(text);
+        // console.log(text);
     }
     
     const handlePassword = (text) => {
         setPassword(text.target.value);
-        console.log(text);
+        // console.log(text);
     }
 
     const handleSubmit = () => {
