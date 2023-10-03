@@ -10,3 +10,6 @@ class MongoDbConfig:
     
     def disconnect(self):
         self.client.close()
+
+
+#pip uninstall deepface numpy pandas tqdm gdown Pillow tensorflow keras mtcnn retina-face fire gunicorn termcolor filelock beautifulsoup4 packaging python-dateutil pytz 
