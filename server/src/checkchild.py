@@ -93,8 +93,8 @@ def check_child(request):
         # print(results)
 
         face_match_percentage = face_distance([face_encoding], temp_encoding)[0]
-        if face_match_percentage:
-            print(face_match_percentage, child_encoding['child_id'])
+        # if face_match_percentage:
+        #     print(face_match_percentage, child_encoding['child_id'])
 
         face_match_percentage = (1 - face_match_percentage) * 100
 
@@ -105,7 +105,7 @@ def check_child(request):
             
 
         # print(matches)
-    print("FINAL", matches)
+    # print("FINAL", matches)
     if matches[0] != None:
         child = collection2.find_one({'_id': matches[0]})
 

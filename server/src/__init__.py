@@ -9,7 +9,7 @@ from .config.mongodb import MongoDbConfig
 rescufy_server = Flask(__name__)
 CORS(rescufy_server)
 
-@rescufy_server.route('/')
+@rescufy_server.route('/', methods=['GET', 'POST'])
 def index():
     return jsonify({'Response': 'Working'})
 
